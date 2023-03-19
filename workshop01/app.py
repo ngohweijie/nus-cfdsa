@@ -21,4 +21,4 @@ def index():
 
 if __name__ == '__main__':
     # app.run()
-    serve(app, host='0.0.0.0', port=8080)
+    serve(app, port=8080)
