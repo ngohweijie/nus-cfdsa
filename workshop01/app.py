@@ -20,5 +20,5 @@ def index():
     return render_template('index.html', dynamic_text=dynamic_text)
 
 if __name__ == '__main__':
-    # app.run()
-    serve(app, port=8080)
+    app.run()
+    # serve(app, port=8080)
